@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página principal</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    header {
+      background-color: #b3aacd;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  Renta y Confort - Renta de autos
+</header>
+
+<!-- MENÚ SUPERIOR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="index.html">Inicio</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="autos.html">Autos</a>
+        </li>
+
+        <!-- DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Servicios
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="mantenimiento.html">Mantenimiento</a></li>
+            <li><a class="dropdown-item" href="montallantas.html">Montallantas</a></li>
+            <li><a class="dropdown-item" href="alineacion.html">Alineación y Balanceo</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CONTENIDO -->
+<div class="container-fluid">
+  <div class="row">
+
+    <!-- MENÚ LATERAL -->
+    <div class="col-3 bg-primary text-white p-3">
+      <h4>Menú del sitio</h4>
+      <ul class="nav flex-column">
+        <li class="nav-item"><a href="index.html" class="nav-link text-white">Página principal</a></li>
+        <li class="nav-item"><a href="autos.html" class="nav-link text-white">Autos</a></li>
+        <li class="nav-item"><a href="contacto.html" class="nav-link text-white">Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTENIDO DERECHO -->
+    <div class="col-9 bg-info text-white p-4">
+		
+      <h2>Contacto</h2>
+          <p>Email: contacto@autos.com</p>
+          <p>Celular: 316 5208041</p>
+		
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
